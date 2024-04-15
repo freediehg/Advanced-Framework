@@ -14,32 +14,32 @@ import java.util.Date;
 
 public class HomePage {
 
-    public static By btnNewCustomer = By.linkText("New Customer");
-    public static By txtName = By.name("name");
-    public static By radioBtnMale = By.xpath("//input[@value='m']");
-    public static By radioBtnFemale = By.xpath("//input[@value='f']");
-    public static By txtDate = By.xpath("//input[@id='dob']");
-    public static By txtAddress = By.xpath("//textarea[@name='addr']");
-    public static By txtCity = By.xpath("//input[@name='city']");
-    public static By txtState = By.xpath("//input[@name='state']");
-    public static By txtPin = By.xpath("//input[@name='pinno']");
-    public static By txtMobileNo = By.xpath("//input[@name='telephoneno']");
-    public static By txtEmail = By.xpath("//input[@name='emailid']");
-    public static By txtPassword = By.xpath("//input[@name='password']");
-    public static By btnSubmit = By.xpath("//input[@name='sub']");
-    public static By btnReset = By.xpath("//input[@name='res']");
-    public static By lblHeading = By.xpath("//p[@class='heading3']");
-    public static By lblCustomerId = By.xpath("//td[normalize-space()='Customer ID']//following-sibling::td");
-    public static By lblCustomerName = By.xpath("//td[normalize-space()='Customer Name']//following-sibling::td");
-    public static By lblGender = By.xpath("//td[normalize-space()='Gender']//following-sibling::td");
-    public static By lblBirthDate = By.xpath("//td[normalize-space()='Birthdate']//following-sibling::td");
-    public static By lblAddress = By.xpath("//td[normalize-space()='Address']//following-sibling::td");
-    public static By lblCity = By.xpath("//td[normalize-space()='City']//following-sibling::td");
-    public static By lblState = By.xpath("//td[normalize-space()='State']//following-sibling::td");
-    public static By lblPin = By.xpath("//td[normalize-space()='Pin']//following-sibling::td");
-    public static By lblMobileNo = By.xpath("//td[normalize-space()='Mobile No.']//following-sibling::td");
-    public static By lblEmail = By.xpath("//td[normalize-space()='Email']//following-sibling::td");
-    public static By btnLogout = By.linkText("Log out");
+    private static By btnNewCustomer = By.linkText("New Customer");
+    private static By txtName = By.name("name");
+    private static By radioBtnMale = By.xpath("//input[@value='m']");
+    private static By radioBtnFemale = By.xpath("//input[@value='f']");
+    private static By txtDate = By.xpath("//input[@id='dob']");
+    private static By txtAddress = By.xpath("//textarea[@name='addr']");
+    private static By txtCity = By.xpath("//input[@name='city']");
+    private static By txtState = By.xpath("//input[@name='state']");
+    private static By txtPin = By.xpath("//input[@name='pinno']");
+    private static By txtMobileNo = By.xpath("//input[@name='telephoneno']");
+    private static By txtEmail = By.xpath("//input[@name='emailid']");
+    private static By txtPassword = By.xpath("//input[@name='password']");
+    private static By btnSubmit = By.xpath("//input[@name='sub']");
+    private static By btnReset = By.xpath("//input[@name='res']");
+    private static By lblHeading = By.xpath("//p[@class='heading3']");
+    private static By lblCustomerId = By.xpath("//td[normalize-space()='Customer ID']//following-sibling::td");
+    private static By lblCustomerName = By.xpath("//td[normalize-space()='Customer Name']//following-sibling::td");
+    private static By lblGender = By.xpath("//td[normalize-space()='Gender']//following-sibling::td");
+    private static By lblBirthDate = By.xpath("//td[normalize-space()='Birthdate']//following-sibling::td");
+    private static By lblAddress = By.xpath("//td[normalize-space()='Address']//following-sibling::td");
+    private static By lblCity = By.xpath("//td[normalize-space()='City']//following-sibling::td");
+    private static By lblState = By.xpath("//td[normalize-space()='State']//following-sibling::td");
+    private static By lblPin = By.xpath("//td[normalize-space()='Pin']//following-sibling::td");
+    private static By lblMobileNo = By.xpath("//td[normalize-space()='Mobile No.']//following-sibling::td");
+    private static By lblEmail = By.xpath("//td[normalize-space()='Email']//following-sibling::td");
+    private static By btnLogout = By.linkText("Log out");
 
     public static void addNewCustomer() throws AWTException {
         LogClass.logMethod("Add Customer");
