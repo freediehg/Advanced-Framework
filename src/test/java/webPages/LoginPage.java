@@ -1,6 +1,5 @@
 package webPages;
 
-import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import utilities.ConfigReader;
 import utilities.DriverFactory;
